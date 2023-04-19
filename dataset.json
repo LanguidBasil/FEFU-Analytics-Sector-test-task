@@ -1,0 +1,137 @@
+[
+    {
+        "profile_id": "1ac38224-14fc-4294-b139-70f7b7bf545b",
+        "full_name": "Иванов Юрий Борисович",
+        "scientometric_database": "scopus",
+        "publication_count": 1143,
+        "citation_count": 75891,
+        "h_index": 115,
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=35221660700"
+    },
+    {
+        "profile_id": "e294c64b-a32c-4623-859d-eca456025fcd",
+        "full_name": "Иванов Василий Андреевич",
+        "scientometric_database": "scopus",
+        "publication_count": 303,
+        "citation_count": 1140,
+        "h_index": 14,
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=7404809618"
+    },
+    {
+        "profile_id": "3313233f-3945-4fea-a5e0-ea18308b9fed",
+        "full_name": "Иванов Михаил Владимирович",
+        "scientometric_database": "scopus",
+        "publication_count": 272,
+        "citation_count": 3072,
+        "h_index": 24,
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=7201382133"
+    },
+    {
+        "profile_id": "4b61f235-a19c-4bca-9eca-013757d3673e",
+        "full_name": "Петров Владимир Алексеевич",
+        "scientometric_database": "scopus",
+        "publication_count": 1233,
+        "citation_count": 89549,
+        "h_index": 117,
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=8049867900"
+    },
+    {
+        "profile_id": "a0c28462-1e41-40fe-a49f-bffb582692f3",
+        "full_name": "Петров Олег Федорович",
+        "scientometric_database": "scopus",
+        "publication_count": 417,
+        "citation_count": 7431,
+        "h_index": 43,
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=7102305944"
+    },
+    {
+        "profile_id": "5d7f584b-9cf4-4b90-82e3-42bdc2a3fd01",
+        "full_name": "Михайлов Сергей Иванович",
+        "scientometric_database": "wos",
+        "publication_count": 112,
+        "citation_count": 569,
+        "h_index": 15,
+        "url": "https://www.webofscience.com/wos/woscc/basic-search"
+    },
+    {
+        "profile_id": "f91f38ec-0060-420c-9816-f4409cc95b6e",
+        "full_name": "Иванов Юрий Борисович",
+        "scientometric_database": "wos",
+        "publication_count": 884,
+        "citation_count": 51344,
+        "h_index": 92,
+        "url": "https://www.webofscience.com/wos/woscc/basic-search"
+    },
+    {
+        "profile_id": "9d2e3611-f147-4825-9b39-3d18a1a024eb",
+        "full_name": "Смирнова Полина Викторовна",
+        "scientometric_database": "wos",
+        "publication_count": 234,
+        "citation_count": 2944,
+        "h_index": 19,
+        "url": "https://www.webofscience.com/wos/woscc/basic-search"
+    },
+    {
+        "profile_id": "d6cc3503-ac29-4ca9-b865-bad9645b49fa",
+        "full_name": "Петров Олег Федорович",
+        "scientometric_database": "wos",
+        "publication_count": 531,
+        "citation_count": 6134,
+        "h_index": 37,
+        "url": "https://www.webofscience.com/wos/woscc/basic-search"
+    },
+    {
+        "profile_id": "630f8113-5b49-40df-816d-772dcbadae70",
+        "full_name": "Огнева Валентина Андреевна",
+        "scientometric_database": "wos",
+        "publication_count": 93,
+        "citation_count": 324,
+        "h_index": 9,
+        "url": "https://www.webofscience.com/wos/woscc/basic-search"
+    },
+    {
+        "profile_id": "02048a96-0edc-4dc1-a165-a99736753432",
+        "full_name": "Огнева Валентина Андреевна",
+        "scientometric_database": "risc",
+        "publication_count": 456,
+        "citation_count": 2134,
+        "h_index": 19,
+        "url": "https://elibrary.ru/project_author_tools.asp?"
+    },
+    {
+        "profile_id": "752e07e7-3bff-4c48-ab6e-82deca7db487",
+        "full_name": "Петров Олег Федорович",
+        "scientometric_database": "risc",
+        "publication_count": 1244,
+        "citation_count": 35123,
+        "h_index": 123,
+        "url": "https://elibrary.ru/project_author_tools.asp?"
+    },
+    {
+        "profile_id": "4433be40-7ab5-4b74-ab75-28ca30cb9823",
+        "full_name": "Ильин Николай Александрович",
+        "scientometric_database": "risc",
+        "publication_count": 114,
+        "citation_count": 2445,
+        "h_index": 17,
+        "url": "https://elibrary.ru/project_author_tools.asp?"
+    },
+    {
+        "profile_id": "f698fd1e-206d-459e-8b29-4e0cd3d534c0",
+        "full_name": "Иванов Юрий Борисович",
+        "scientometric_database": "risc",
+        "publication_count": 7744,
+        "citation_count": 23456,
+        "h_index": 67,
+        "url": "https://elibrary.ru/project_author_tools.asp?"
+    },
+    {
+        "profile_id": "74b0a98d-2d74-4d6b-bd8e-fbb07f90a373",
+        "full_name": "Иванов Василий Андреевич",
+        "scientometric_database": "risc",
+        "publication_count": 667,
+        "citation_count": 3533,
+        "h_index": 45,
+        "url": "https://elibrary.ru/project_author_tools.asp?"
+    }
+]

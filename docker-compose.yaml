@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15-alpine
+    volumes:
+      - db:/var/lib/postgresql/data
+    env_file:
+      - .env
+    ports:
+      - "${POSTGRES_DB_PORT}:5432"
+    networks:
+      - test_task
+  app:
+    depends_on:
+      - db
+    build:
+      context: ./src
+      dockerfile: dockerfile
+    env_file:
+      - .env
+    ports:
+      - "80:80"
+    networks:
+      - test_task
+
+volumes:
+  db:
+networks:
+  test_task:

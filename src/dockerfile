@@ -1,0 +1,9 @@
+FROM python:3.10.11-alpine
+
+# hack to allow docker "RUN pip install" only if requirements.txt has changed from last start
+ADD ./requirements.txt /app_requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /app_requirements.txt
+
+COPY . /app
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
