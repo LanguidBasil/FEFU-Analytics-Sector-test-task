@@ -15,7 +15,7 @@ services:
     ports:
       - "${POSTGRES_DB_PORT}:5432"
     networks:
-      - test_task
+      - main
   app:
     depends_on:
       db:
@@ -28,9 +28,9 @@ services:
     ports:
       - "80:80"
     networks:
-      - test_task
+      - main
 
 volumes:
   db:
 networks:
-  test_task:
+  main:
