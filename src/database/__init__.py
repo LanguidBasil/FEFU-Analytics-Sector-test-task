@@ -3,7 +3,7 @@ import asyncio
 from sqlalchemy import MetaData
 from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
 
-from ._models import Profile, ScientometricDatabase
+from ._models import Base, Profile, ScientometricDatabase
 from ..config import AppSettings
 
 
@@ -18,8 +18,7 @@ session_maker = async_sessionmaker(bind=engine, expire_on_commit=False)
 
 async def create_tables():
     async with engine.begin() as conn:
-        meta = MetaData()
-        await conn.run_sync(meta.create_all)
+        await conn.run_sync(Base.metadata.create_all)
 
 asyncio.gather(asyncio.create_task(create_tables()))
 
